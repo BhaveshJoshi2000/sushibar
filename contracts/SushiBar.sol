@@ -51,7 +51,7 @@ contract SushiBar is ERC20("SushiBar", "xSUSHI") {
     // Unlocks the staked + gained Sushi and burns xSushi
 
     /**
-    @notice all of the amount of sender's balance will be withdrawn once leave is called, tax will be calculated on the same
+    @notice here i assumed that all of the amount of sender's balance will be withdrawn once leave is called, tax will be calculated on the same
     */
     function leave() public {
         // Gets the amount of xSushi in existence
